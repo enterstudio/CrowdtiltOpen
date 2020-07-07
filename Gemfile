@@ -19,8 +19,8 @@ gem 'active_model_serializers'
 gem 'momentjs-rails'
 # Front-end
 gem 'bootstrap-sass', '2.1'
-gem 'jquery-rails'
-gem 'jquery-ui-rails'
+gem 'jquery-rails', '>= 3.1.3'
+gem 'jquery-ui-rails', '>= 4.0.3'
 
 group :production do
   gem 'newrelic_rpm'
