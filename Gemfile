@@ -2,13 +2,13 @@ source 'https://rubygems.org'
 ruby '1.9.3'
 
 # Framework and core dependencies
-gem 'rails', '3.2.13'
+gem 'rails', '6.0.3.5'
 gem 'pg'
 gem 'unicorn'
 gem 'foreman'
 
 gem 'crowdtilt', github: 'Crowdtilt/crowdtilt-gem'
-gem 'devise', '~> 3.2.0'
+gem 'devise', '~> 4.7.0'
 gem 'nokogiri'
 gem 'friendly_id', '~> 4.0.9'
 gem 'iso_country_codes'
@@ -16,30 +16,30 @@ gem 'paperclip', '~> 3.0'
 gem 'ckeditor'
 gem 'aws-sdk'
 gem 'active_model_serializers'
-gem 'momentjs-rails'
+gem 'momentjs-rails', '>= 2.5.0'
 # Front-end
 gem 'bootstrap-sass', '2.1'
-gem 'jquery-rails'
-gem 'jquery-ui-rails'
+gem 'jquery-rails', '>= 4.0.1'
+gem 'jquery-ui-rails', '>= 4.0.3'
 
 group :production do
   gem 'newrelic_rpm'
-  gem 'lograge'
+  gem 'lograge', '>= 0.2.2'
 end
 
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
+  gem 'sass-rails', '~> 5.0.8'
+  gem 'coffee-rails', '~> 4.2.2'
   gem 'uglifier', '>= 1.0.3'
   gem 'asset_sync'
 end
 
 group :development, :test do
   gem 'pry-rails'
-  gem 'rspec-rails'
-  gem 'factory_girl_rails'
+  gem 'rspec-rails', '>= 2.13.2'
+  gem 'factory_girl_rails', '>= 4.2.1'
   gem 'shoulda'
 end
 
