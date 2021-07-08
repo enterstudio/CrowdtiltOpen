@@ -50,5 +50,5 @@ end
 group :test do
   gem 'faker'
   gem 'capybara'
-  gem 'email_spec'
+  gem 'email_spec', '>= 1.4.0'
 end
