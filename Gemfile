@@ -9,7 +9,7 @@ gem 'foreman'
 
 gem 'crowdtilt', github: 'Crowdtilt/crowdtilt-gem'
 gem 'devise', '~> 3.2.0'
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.13.6'
 gem 'friendly_id', '~> 4.0.9'
 gem 'iso_country_codes'
 gem 'paperclip', '~> 3.0'
