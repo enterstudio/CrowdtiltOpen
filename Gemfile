@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby '1.9.3'
 
 # Framework and core dependencies
-gem 'rails', '3.2.13'
+gem 'rails', '5.2.8.1'
 gem 'pg'
 gem 'unicorn'
 gem 'foreman'
