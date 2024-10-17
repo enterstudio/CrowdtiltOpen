@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby '1.9.3'
 
 # Framework and core dependencies
-gem 'rails', '3.2.13'
+gem 'rails', '6.1.7.9'
 gem 'pg'
 gem 'unicorn'
 gem 'foreman'
@@ -20,7 +20,7 @@ gem 'momentjs-rails'
 # Front-end
 gem 'bootstrap-sass', '2.1'
 gem 'jquery-rails'
-gem 'jquery-ui-rails'
+gem 'jquery-ui-rails', '>= 4.0.5'
 
 group :production do
   gem 'newrelic_rpm'
@@ -30,7 +30,7 @@ end
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
+  gem 'sass-rails', '~> 6.0.0'
   gem 'coffee-rails', '~> 3.2.1'
   gem 'uglifier', '>= 1.0.3'
   gem 'asset_sync'
