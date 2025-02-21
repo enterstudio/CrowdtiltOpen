@@ -9,12 +9,12 @@ gem 'foreman'
 
 gem 'crowdtilt', github: 'Crowdtilt/crowdtilt-gem'
 gem 'devise', '~> 3.2.0'
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.18.3'
 gem 'friendly_id', '~> 4.0.9'
 gem 'iso_country_codes'
 gem 'paperclip', '~> 3.0'
 gem 'ckeditor'
-gem 'aws-sdk'
+gem 'aws-sdk', '>= 1.52.0'
 gem 'active_model_serializers'
 gem 'momentjs-rails'
 # Front-end
@@ -33,7 +33,7 @@ group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
   gem 'uglifier', '>= 1.0.3'
-  gem 'asset_sync'
+  gem 'asset_sync', '>= 2.0.0'
 end
 
 group :development, :test do
